@@ -1,0 +1,1 @@
+console.log('Welcome to the Work Day Scheduler by Jay Idrees')
