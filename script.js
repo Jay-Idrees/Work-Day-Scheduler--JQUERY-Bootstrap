@@ -109,7 +109,7 @@ function pull_local_data(){
       $('.textarea').each(function (button_id){
 
 // Placing the user text into appropriate time blocks from local storage. Note that .val() and .val(something) are not the same. .val(something) is assigining a value that is specified in brackets
-                $(this).val(event_log[button_id+1]);
+                $(this).val(event_log[button_id]);
  
              
                 }); //cl-br for the each function inside the if statement
