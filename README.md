@@ -78,17 +78,19 @@ This project demonstrates command over the following programing skills:
 
 - Note how the JQUERY foreach method is used to target each of the 1hr blocks using their id, then these ids are converted to integer using parsInt. Each of the textareas in the 1hr block component are uniquely id'ed but using the hr they represent. For example for the hr block 9am the id is '9'. This number can be matched with the current hr infomation 9obtained by the javascript date function) and then assiging the appropriate color scheme class of present, past and future.
 
-- Note that whenever I want to target multiple textareas for a common task I am targeting them by the common class they share ".textarea", and when I want to target each one of them individually I am targeting them using the unique id. 
+- Note that whenever I want to target multiple textareas for a common task or function I am targeting them by the common class they share e-g ".textarea", and when I want to target each one of them individually I am targeting them using a unique id. 
 
 - Customising bootstrap classes by adding CSS classes under <style> in HTML for color change based on time
 
 - Using bootstrap to generate a mobile responsive webpage
 
-- Adjusting spacing with manipulation of padding, margine, border, radius
+- Adjusting spacing with manipulation of padding, margine, border, radius in bootstrap/ CSS
 
 - Using JQUERY to dynamically manipulate classes for HTML elements
 
 - Using JQUERY to target multiple buttons as event listeners. In particular being able to target each button uniquely as well as all buttons as a group, depending on the task
+
+- Using event.preventdefault(). to prevent loss of user information secondary to default browser functions
 
 - Using Node.JS to generate a high quality readme file. 
 
