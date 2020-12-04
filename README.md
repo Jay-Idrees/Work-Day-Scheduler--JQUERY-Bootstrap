@@ -54,11 +54,12 @@ I am an employee at a large firm and every day is busy. I am looking for a new a
 
 ## Packages used
 
+There are no required packages for this app
 
 
 ## Applied Programming Skills
 
-This project demonstrates command over the following programing skills: 
+By completing this project I was able to master the following programing skills: 
 
 - Using bootstarp flex-box grid system to create units of 1hr blocks consisting of hr tag, text area to store information and a save button
 
