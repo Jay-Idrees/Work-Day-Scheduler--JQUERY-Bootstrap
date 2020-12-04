@@ -77,7 +77,7 @@ By completing this project I was able to master the following programing skills:
 
 - Linking CDNs for using Google fonts and font Awesome in HTML
 
-- Note how the JQUERY foreach method is used to target each of the 1hr blocks using their id, then these ids are converted to integer using parsInt. Each of the textareas in the 1hr block component are uniquely id'ed but using the hr they represent. For example for the hr block 9am the id is '9'. This number can be matched with the current hr infomation 9obtained by the javascript date function) and then assiging the appropriate color scheme class of present, past and future.
+- Note how the JQUERY foreach method is used to target each of the 1hr blocks using their id, then these ids are converted to integer using parsInt. Each of the textareas in the 1hr block component are uniquely id'ed but using the hr they represent. For example for the hr block 9am the id is '9'. This number can be matched with the current hr infomation (obtained by the javascript date/time function) and then assiging the appropriate color scheme class of present, past and future.
 
 - Note that whenever I want to target multiple textareas for a common task or function I am targeting them by the common class they share e-g ".textarea", and when I want to target each one of them individually I am targeting them using a unique id. 
 
