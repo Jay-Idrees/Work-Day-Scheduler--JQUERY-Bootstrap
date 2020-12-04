@@ -44,9 +44,9 @@ I am an employee at a large firm and every day is busy. I am looking for a new a
 
 ![Javascript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript)
 
-![HTML](https://img.shields.io/badge/HTML-informational?style=for-the-badge&logo=html5)
-
 ![JQUERY](https://img.shields.io/badge/jquery-purple?style=for-the-badge&logo=jquery)
+
+![HTML](https://img.shields.io/badge/HTML-informational?style=for-the-badge&logo=html5)
 
 ![Node](https://img.shields.io/badge/Node-green?style=for-the-badge&logo=Node.js)
 
@@ -76,7 +76,7 @@ This project demonstrates command over the following programing skills:
 
 - Linking CDNs for using Google fonts and font Awesome in HTML
 
-- Note how the JQUERY foreach method is used to target each of the 1hr blocks using their id, then these ids are converted to integer using parsInt. Each of the textareas in the 1hr block component are uniquely id'ed but using the hr they represent. For example for the hr block 9am the id is '9'. This number can be matched with the current hr infomation and then determining present, past and future to decide relevant color scheme.
+- Note how the JQUERY foreach method is used to target each of the 1hr blocks using their id, then these ids are converted to integer using parsInt. Each of the textareas in the 1hr block component are uniquely id'ed but using the hr they represent. For example for the hr block 9am the id is '9'. This number can be matched with the current hr infomation 9obtained by the javascript date function) and then assiging the appropriate color scheme class of present, past and future.
 
 - Note that whenever I want to target multiple textareas for a common task I am targeting them by the common class they share ".textarea", and when I want to target each one of them individually I am targeting them using the unique id. 
 
@@ -89,6 +89,8 @@ This project demonstrates command over the following programing skills:
 - Using JQUERY to dynamically manipulate classes for HTML elements
 
 - Using JQUERY to target multiple buttons as event listeners. In particular being able to target each button uniquely as well as all buttons as a group, depending on the task
+
+- Using Node.JS to generate a high quality readme file. 
 
 ## Key files in the repository
 
