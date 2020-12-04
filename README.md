@@ -4,7 +4,7 @@
 This project is an app that helps you plan your day by allowing you to plan for the hourly blocks of time.  The user can save text. The information typed by the user is stored and displayed when the user visits the webpage again. I developed this application during the third week of the coding bootcamp experience at Columbia University, NY. Date of publication: 11/01/2020
 
 [Link to the Work Day Scheduler](https://jidrees.github.io/Work-Day-Scheduler--JQUERY-Bootstrap/) <br />
-[Video Demo]()<br />
+[Watch a video demonstrating the app functionality](https://youtu.be/N-xsrEMPJFg)<br />
 
 ## Contact Programmer for questions
 
