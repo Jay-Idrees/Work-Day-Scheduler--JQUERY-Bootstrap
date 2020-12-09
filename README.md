@@ -1,9 +1,9 @@
 # Workday Scheduler 
 
 ## About the Project
-This project is an app that helps you plan your day by allowing you to plan for the hourly blocks of time.  The user can save text. The information typed by the user is stored and displayed when the user visits the webpage again. I developed this application during the third week of the coding bootcamp experience at Columbia University, NY. Date of publication: 11/01/2020
+This project is an app that helps you plan your day by allowing you to plan for the hourly blocks of time.  The user can save text. The information typed by the user is stored and displayed when the user visits the webpage again. I developed this application during the third week of the coding bootcamp at Columbia University, NY. Date of publication: 11/01/2020
 
-[Link to the Work Day Scheduler](https://jidrees.github.io/Work-Day-Scheduler--JQUERY-Bootstrap/) <br />
+[Link to the Work Day Scheduler](https://jay-idrees.github.io/Work-Day-Scheduler--JQUERY-Bootstrap/) <br />
 [Watch a video demonstrating the app functionality](https://youtu.be/N-xsrEMPJFg)<br />
 
 ## Contact Programmer for questions
@@ -31,11 +31,8 @@ jidrees@live.com
 
 ## User Story
 
-I am an employee at a large firm and every day is busy. I am looking for a new app that can help me organize my day and keep track of the various tasks and meetings. I am specifically looking for an app that can enable me to organisze my daily tasks/commitments with the flexibility to do in an hourly fashion.
+I am an employee at a large firm and every day is busy. I am looking for a new app that can help me organize my day and facilitate keeping track of the various tasks and meetings. I am specifically looking for an app that can enable me to organisze my daily tasks/commitments by hour
  
-
-
-
 ## Technologies used
 
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-blueviolet?style=for-the-badge&logo=bootstrap)
@@ -63,11 +60,11 @@ By completing this project I was able to master the following programing skills:
 
 - Using bootstarp flex-box grid system to create units of 1hr blocks consisting of hr tag, text area to store information and a save button
 
-- Using Javascript to obtain current date and displaying information into jumbotron
+- Using Javascript to obtain current date and displaying information into the jumbotron
 
-- Using JQUERY to change the color of hr block text box dynamically based on the present hr (green), previous hr(blue) and future hr (pink)
+- Using JQUERY to change the color of hr block text box dynamically, based on the present hr (green), previous hr(blue) and future hr (pink)
 
-- Saving user text typed in hourly text blocks into local storage by creating an object
+- Saving user text (typed in 1hr block text boxes) into local storage by creating an object
 
 - Note that the save buttons have been assigned a unique id (each) which is specific to the hour blocks and then JQUERY is used to pair the user text in individual hr blocks to the unique id of their corresponding save buttons. In this way each unique text string from an hr block is uniquily identifyable using the ids drived from a corresponding buttons.
 
@@ -77,7 +74,7 @@ By completing this project I was able to master the following programing skills:
 
 - Linking CDNs for using Google fonts and font Awesome in HTML
 
-- Note how the JQUERY foreach method is used to target each of the 1hr blocks using their id, then these ids are converted to integer using parsInt. Each of the textareas in the 1hr block component are uniquely id'ed but using the hr they represent. For example for the hr block 9am the id is '9'. This number can be matched with the current hr infomation (obtained by the javascript date/time function) and then assiging the appropriate color scheme class of present, past and future.
+- Note how the JQUERY foreach method is used to target each of the 1hr blocks using their id (specified as number), then these ids are converted to an integer value using parsInt. Each of the textareas in the 1hr block component are uniquely id'ed as the hr they represent. For example for the hr block 9am the id is '9' that is converted to an integer using ParsInt. This number can be matched with the current hr infomation (obtained by the javascript date/time function) and then assiging the appropriate color scheme class of present, past and future.
 
 - Note that whenever I want to target multiple textareas for a common task or function I am targeting them by the common class they share e-g ".textarea", and when I want to target each one of them individually I am targeting them using a unique id. 
 
